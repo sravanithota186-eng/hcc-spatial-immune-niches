@@ -1,0 +1,17 @@
+# Data (large / raw) - document accessions in data/README.md instead
+data/raw/
+data/processed/
+*.rds
+*.h5ad
+*.h5
+*.loom
+*.RData
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+renv/library/
+# Copyrighted PDFs: only commit open-access papers (see references/papers/README.md)
+references/papers/*.pdf
+!references/papers/OA_*.pdf
