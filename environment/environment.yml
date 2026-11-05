@@ -1,0 +1,31 @@
+name: hcc-spatial
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  # Single-cell (scanpy ecosystem)
+  - scanpy
+  - anndata
+  - loompy
+  # Spatial
+  - squidpy
+  - cell2location
+  # Visualization / extra
+  - umap-learn
+  - leidenalg
+  - louvain
+  - pip:
+    - gseapy
+    - requests
+    - tqdm
